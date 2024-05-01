@@ -24,8 +24,6 @@ window.onresize = () => {
 
    let img_data
 
-   const draw = i => ctx.drawImage (i, 0, 0, cnv.width, cnv.height)
-
    const img = new Image ()
    img.onload = () => {
       cnv.height = cnv.width * (img.height / img.width)
