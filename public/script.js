@@ -73,5 +73,3 @@ window.onresize = () => {
 
       requestAnimationFrame (draw_frame)
    }
-
-</script>
